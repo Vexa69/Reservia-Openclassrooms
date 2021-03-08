@@ -1,0 +1,46 @@
+.footer {
+	background-color: #f2f2f2;
+	width: 100%;
+}
+footer {
+	display: block;
+}
+body {
+	font-family: "raleway", "Sans-serif";
+}
+.footerColumnwrapperColumn {
+	width: 30%;
+	padding: 2rem 2rem;
+}
+.footerColumnwrapperColumnLink {
+	display: block;
+	margin: 1rem 0;
+}
+a {
+	color: inherit;
+	text-decoration: none;
+	background-color: transparent;
+}
+h3 {
+	display: block;
+	font-size: 1.17em;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	font-weight: bold;
+}
+div {
+	display: block;
+}
+.footerColumnwrapper {
+	display: flex;
+	max-width: 100%;
+	width: 1440px;
+	margin: auto;
+	padding: 0 2rem;
+	box-sizing: border-box;
+}
+html {
+	line-height: 1.15;
+}
