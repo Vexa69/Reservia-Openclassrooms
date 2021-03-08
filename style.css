@@ -1,7 +1,11 @@
-.introduction {
-	color: blue;
+body h1 {
 	font-size: 20px;
-	border-radius: 10px;
-	border-color: black;
-	border: 3px groove;
+	font: x-large;
+	font-family: "raleway", serif;
+}
+body h2 {
+	font-size: 15px;
+	font-weight: normal;
+	font-family: "raleway", sans-serif;
+	color: grey;
 }
