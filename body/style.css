@@ -349,7 +349,7 @@ figcaption {
 .main {
 	max-width: 1440px;
 	margin: auto;
-	padding: 0 2rem;
+	/*padding: 0 2rem;*/
 	box-sizing: border-box;
 }
 .hostingMainViewmore {
@@ -431,17 +431,23 @@ h3 {
 @media (max-width: 925px) and (min-width: 650px) {
 	.hostingMain {
 		grid-template-columns: 1fr 1fr;
+		background-color: inherit;
 	}
 }
 @media (max-width: 650px) {
 	.hostingMain {
 		grid-template-columns: 1fr;
+		background-color: inherit;
 	}
 }
 @media (max-width: 1000px) {
 	.hostingPopular {
 		grid-template-columns: 1fr;
 		grid-template-rows: auto repeat(3, 9rem);
+		border-top-right-radius: inherit;
+		border-top-left-radius: inherit;
+		border-bottom-left-radius: inherit;
+		border-bottom-right-radius: inherit;
 	}
 }
 /*HOSTING END*/
